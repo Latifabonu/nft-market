@@ -15,13 +15,13 @@
     <!-- ------------------------ Navbar starts ------------------------ -->
 
 
-    <nav class=" md:h-[15vh] h-[60px] px-[1rem] md:px-0  bg-[#16091B] border-b">
-        <ul class="h-full w-full flex items-center justify-between container">
+    <nav class="container md:h-[15vh] max-h-[150px] h-[60px] px-[1rem] md:px-0  bg-[#16091B] border-b">
+        <ul class="h-full w-full flex items-center justify-between  ">
             <li class="md:w-[66px] md:h-[66px] h-[48px] w-[48px]">
                 <img class="w-full h-full" src="assets/icons/image (1).svg" alt="">
             </li>
 
-            <li class="md:block hidden">
+            <li class="md:block hidden z-[1]">
                 <ul class=" flex items-center gap-[2rem] navlinks">
 
 
@@ -40,7 +40,7 @@
                 </ul>
             </li>
 
-            <li class="md:block hidden">
+            <li class="md:block hidden z-[1]">
                 <button
                     class="w-[195px] h-[64px] bg-[#E9D7A71A] border border-[#FFCE4E] text-[#FFCE4E] text-[18px] leading-[21px] font-bold hover:bg-[#E9D7A710]">Connect
                     Wallet</button>
@@ -88,6 +88,90 @@
 
     </nav>
     <!-- ------------------------ Navbar ends ------------------------ -->
+
+
+    <main class=" container z-[1] my-[4rem]">
+        <!-- ------------------------ hero section starts ------------------------ -->
+        <section class="md:column grid grid-cols-2 gap-[4rem] h-[85vh]  mx-[3rem]">
+            <!-- left -->
+            <div class="my-[4rem] flex flex-col justify-between">
+                <h1 class="text-[#f5fbf2] text-[85px] leading-[130px] font-['Oxanium'] font-[700] ">
+                    Explore, Buy and Sell the
+                    <span class="text-[#ffce4e]">Best NFTs!</span>
+                </h1>
+
+
+
+                <div class="my-[6rem] flex gap-[3rem]">
+                    <button
+                        class="w-[257px] h-[84px] text-black text-[28px] font-bold leading-[36px] bg-[#ffce4e] border border[#ffce4e]">Explore</button>
+                    <button
+                        class="w-[257px] h-[84px] text-white text-[28px] font-bold leading-[36px] bg-[#e9d7a71a] border border[#ffce4e]">Create</button>
+                </div>
+
+                <div class="my-[6rem] flex items-center justify-between w-full">
+                    <div>
+                        <h1 class="text-[#f5fbf2] text-[62px] leaning-[77.5px] font-['Oxanium'] font-bold ">32k+</h1>
+                        <p class="text-[24px] leaning-[35px] text-[#9b9e9a] font-[400] text-center">Artworks</p>
+                    </div>
+
+                    <div>
+                        <h1 class="text-[#f5fbf2] text-[62px] leaning-[77.5px] font-['Oxanium'] font-bold ">12k+</h1>
+                        <p class="text-[24px] leaning-[35px] text-[#9b9e9a] font-[400] text-center">Creators</p>
+                    </div>
+
+                    <div>
+                        <h1 class="text-[#f5fbf2] text-[62px] leaning-[77.5px] font-['Oxanium'] font-bold ">32k+</h1>
+                        <p class="text-[24px] leaning-[35px] text-[#9b9e9a] font-[400] text-center">Artworks</p>
+                    </div>
+                </div>
+            </div>
+            <!-- left -->
+
+
+            <!-- right -->
+            <div class="h-full w-full p-[2rem] relative">
+                <div class="bg-[url('./assets/images/hero.png')] w-full max-w-[558px] h-full max-h-[718px] p-[1rem]">
+                    <div class="p-[1rem] flex items-center justify-between"
+                        style="background: linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%);">
+                        
+                        
+                        <div class=" flex flex-col gap-2">
+                            <p class="font-['Oxanium'] text-[18px] font-semibold leaning-[
+                            22px] text-[#E4DEE7]">Current bid</p>
+                            <h1 class="text-[31px] leaning-[40px] font-['Oxanium'] font-[700] text-white">
+                                0.99ETH</h1>
+                        </div>
+
+                        <div class=" flex flex-col gap-2">
+                            <p class="font-['Oxanium'] text-[18px] font-semibold leaning-[
+                            22px] text-[#E4DEE7]">Ends in</p>
+                            <h1 class="text-[31px] leaning-[40px] font-['Oxanium'] font-[700] text-white">
+                                25 hrs</h1>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="bg-[#B5C8DB]  flex  justify-around items-center w-full h-[142px]">
+                    <div>
+                        <h3 class="text-[28px] leaning-[35px] font-bold font-['Oxanium'] text-[#16091B]">Artist</h3>
+                        <p class="text-[#594D5E] text-[24px] font-[400] leading-[35px] ">@wzard</p>
+
+                    </div>
+                    <button
+                        class="w-[257px] h-[84px] text-black text-[28px] font-bold leading-[36px] bg-[#ffce4e] border border[#ffce4e]">Strat
+                        bid</button>
+                </div>
+            </div>
+            <!-- right -->
+
+        </section>
+        <!-- ------------------------ hero section ends ------------------------ -->
+
+    </main>
 
 
     <script src="script.js"></script>
